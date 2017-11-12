@@ -3,8 +3,9 @@ import java.util.HashMap;
 //import java.util.Scanner;
 
 /**
- * @author TODO: please add student ID and name here
- * Try to write some comments for your codes (methods, 10 points)
+ * @author TODO: B0322017 ªL¨°«Ø
+ * This java project will create a deck which is ordered in sequence at first. "shuffle method" is a method to shuffle the deck.
+ * "getOneCard method" is used to draw a card and can verify whether to shuffle the deck.
  */
 public class HW3 {
 	public static void main(String[] args) {
@@ -19,18 +20,20 @@ public class HW3 {
 		//shuffle (10 points)
 		//constructor (5 points)
 		Deck deck=new Deck(nDeck);
-		
+		//deck.printDeck();
 		//TODO: please check your output, make sure that you print newCard and newCard2 on your screen  (10 points)
 		//TODO: please add new fields and methods to Card class (25)
 		//Use enumerated type in Card (10 points)
 		//Constructor (5 points)
 		//printCard (5 points)
 		//getSuit (5 points)
+		
 		Card newCard=deck.getOneCard();
-		newCard.printCard();
+		newCard.printCard(newCard.getSuit() ,newCard.getRank());
 		Card newCard2=deck.getOneCard();
-		newCard2.printCard();
+		newCard2.printCard(newCard2.getSuit(),newCard2.getRank());
 		deck.shuffle();
+		deck.printDeck();
 		if(isAllCardsCorrect(deck.getAllCards(),nDeck)){
 			if(!isShuffleWorking(deck,newCard,newCard2)){
 				System.out.println("All Card: Well done! But shufller is not working");

@@ -1,0 +1,1 @@
+INDEX VERSION 1.130+C:\Users\Jack\Documents\GitHub\cguimjava2-hw3-x91003502\.metadata\.plugins\org.eclipse.jdt.core
