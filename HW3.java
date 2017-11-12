@@ -3,7 +3,7 @@ import java.util.HashMap;
 //import java.util.Scanner;
 
 /**
- * @author TODO: B0322017 ªL¨°«Ø
+ * @author TODO: B0322017 æž—è¾°å»º;
  * This java project will create a deck which is ordered in sequence at first. "shuffle method" is a method to shuffle the deck.
  * "getOneCard method" is used to draw a card and can verify whether to shuffle the deck.
  */
