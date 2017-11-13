@@ -9,8 +9,8 @@ public class Card{
 	
 	public enum Suit {
 		Clubs,
-	    Diamonds,
-	    Hearts,
+	    	Diamonds,
+	    	Hearts,
 		Spades;
 	}
 	
